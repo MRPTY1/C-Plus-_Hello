@@ -13,10 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\C_1">
+      <UniqueIdentifier>{05859489-5f17-46cf-b1c3-9f2135623f3d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Hello.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
+    <Image Include="..\..\..\..\..\Desktop\编译器和链接器.png">
+      <Filter>源文件\C_1</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="练习.txt">
+      <Filter>源文件\C_1</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="编程步骤.txt">
+      <Filter>源文件\C_1</Filter>
+    </None>
   </ItemGroup>
 </Project>
