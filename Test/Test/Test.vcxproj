@@ -29,6 +29,10 @@
   <ItemGroup>
     <Text Include="练习.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hellow.c" />
+    <ClCompile Include="system.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{7BEBBA25-F587-479A-AD7C-46254829BB05}</ProjectGuid>

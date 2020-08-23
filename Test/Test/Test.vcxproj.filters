@@ -32,4 +32,12 @@
       <Filter>源文件\C_1</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hellow.c">
+      <Filter>源文件\C_1</Filter>
+    </ClCompile>
+    <ClCompile Include="system.c">
+      <Filter>源文件\C_1</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
