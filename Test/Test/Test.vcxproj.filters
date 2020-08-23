@@ -21,9 +21,15 @@
     <Image Include="..\..\..\..\..\Desktop\编译器和链接器.png">
       <Filter>源文件\C_1</Filter>
     </Image>
+    <Image Include="..\..\..\..\..\..\Desktop\编译过程.png">
+      <Filter>源文件\C_1</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <Text Include="练习.txt">
+      <Filter>源文件\C_1</Filter>
+    </Text>
+    <Text Include="编译过程.txt">
       <Filter>源文件\C_1</Filter>
     </Text>
   </ItemGroup>

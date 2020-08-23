@@ -24,10 +24,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\..\..\..\Desktop\编译过程.png" />
     <Image Include="..\..\..\..\..\Desktop\编译器和链接器.png" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="练习.txt" />
+    <Text Include="编译过程.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hellow.c" />
