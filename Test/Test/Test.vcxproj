@@ -32,6 +32,7 @@
     <Text Include="编译过程.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="asm.c" />
     <ClCompile Include="hellow.c" />
     <ClCompile Include="system.c" />
   </ItemGroup>
