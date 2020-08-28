@@ -16,6 +16,12 @@
     <Filter Include="源文件\C_1">
       <UniqueIdentifier>{05859489-5f17-46cf-b1c3-9f2135623f3d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\C_4">
+      <UniqueIdentifier>{142e2590-1824-4e1f-80d6-ad4164092f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C_10">
+      <UniqueIdentifier>{a1708130-f05b-4933-bcd3-a008c18785d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\..\Desktop\编译器和链接器.png">
@@ -47,6 +53,18 @@
     </ClCompile>
     <ClCompile Include="asm.c">
       <Filter>源文件\C_1</Filter>
+    </ClCompile>
+    <ClCompile Include="str.c">
+      <Filter>源文件\C_4</Filter>
+    </ClCompile>
+    <ClCompile Include="test_printf.c">
+      <Filter>源文件\C_4</Filter>
+    </ClCompile>
+    <ClCompile Include="sumarr.c">
+      <Filter>源文件\C_10</Filter>
+    </ClCompile>
+    <ClCompile Include="zippo.c">
+      <Filter>源文件\C_10</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

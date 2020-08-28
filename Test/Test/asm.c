@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+int main3() {
 	int a, b, c;
 	//内联汇编代码
 	//只能在x86平台使用
