@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main() {
+int main102() {
 	int zippo[4][2] = { {1,3},{2,4},{6,8},{5,7}};
 	//创建一个指向数组的指针
 	int(*p)[2] ;
@@ -17,5 +17,6 @@ int main() {
 	printf("zippo[0][0] is %p\t**p is %p\tzippo is %p\n", &zippo[0][0], &**p, zippo);
 	//因为指针类型是指向int数组的，所以*(p+1)取得是第二组数组的指针
 	printf("**(p + 1)=%d\t*(zippo+1) = %d\n", **(p + 1),**(zippo+1));
+	printf("&zippo = %p\t&p = %p\t&*p = %p", &zippo, &p, &*p);
 	return 0;
 }

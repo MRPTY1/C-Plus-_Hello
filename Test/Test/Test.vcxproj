@@ -35,6 +35,7 @@
     <ClCompile Include="asm.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="constp.c" />
     <ClCompile Include="hellow.c" />
     <ClCompile Include="str.c" />
     <ClCompile Include="sumarr.c" />
