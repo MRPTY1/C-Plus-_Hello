@@ -36,11 +36,13 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="constp.c" />
+    <ClCompile Include="flc.c" />
     <ClCompile Include="hellow.c" />
     <ClCompile Include="str.c" />
     <ClCompile Include="sumarr.c" />
     <ClCompile Include="system.c" />
     <ClCompile Include="test_printf.c" />
+    <ClCompile Include="vla.c" />
     <ClCompile Include="zippo.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

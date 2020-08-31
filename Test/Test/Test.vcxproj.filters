@@ -69,5 +69,11 @@
     <ClCompile Include="constp.c">
       <Filter>源文件\C_10</Filter>
     </ClCompile>
+    <ClCompile Include="vla.c">
+      <Filter>源文件\C_10</Filter>
+    </ClCompile>
+    <ClCompile Include="flc.c">
+      <Filter>源文件\C_10</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
