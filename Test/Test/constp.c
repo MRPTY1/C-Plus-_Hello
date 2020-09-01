@@ -7,7 +7,7 @@ int main103() {
 	printf("p1 = %p\tp2 = %p\n", p1, p2);
 	//const int 指针类型，指向的int类型只读，但是指针可以修改
 	//const int类型指针赋值给int类型指针会更加安全，虽然不同，但是不会报错
-	p1 = p2;
+	//p1 = p2;
 	//p2=p1
 	//不安全，从const int 指针类型指向int指针，C++会报错
 	const int* const p3 = &x;
@@ -18,4 +18,5 @@ int main103() {
 	//const在什么前面就修饰什么
 	printf("p1 = %p\tp2 = %p\tp3 = %p\n", p1, p2, p3);
 	printf("*p1 = %d\t*p2 = %d\t*p3 = %d\n", *p1, *p2, *p3);
+	return 0;
 }

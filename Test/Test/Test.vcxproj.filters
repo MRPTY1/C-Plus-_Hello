@@ -22,6 +22,9 @@
     <Filter Include="源文件\C_10">
       <UniqueIdentifier>{a1708130-f05b-4933-bcd3-a008c18785d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\C_11">
+      <UniqueIdentifier>{3a4708c7-9190-46d9-b620-7f77cf68ccb1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\..\..\..\Desktop\编译器和链接器.png">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="flc.c">
       <Filter>源文件\C_10</Filter>
+    </ClCompile>
+    <ClCompile Include="str_puts.c">
+      <Filter>源文件\C_11</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

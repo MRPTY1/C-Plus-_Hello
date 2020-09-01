@@ -2,7 +2,7 @@
 #define COLS 4
 void sum1(int arr[], int len);
 void sum2d(int arr[][COLS], int row);
-int main() {
+int main105() {
 	int* p;
 	int(*p2)[COLS];
 	//复合字面量,可以提供匿名和字面量的数组
