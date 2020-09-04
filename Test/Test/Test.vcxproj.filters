@@ -81,5 +81,11 @@
     <ClCompile Include="str_puts.c">
       <Filter>源文件\C_11</Filter>
     </ClCompile>
+    <ClCompile Include="arrchar.c">
+      <Filter>源文件\C_11</Filter>
+    </ClCompile>
+    <ClCompile Include="gets.c">
+      <Filter>源文件\C_11</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

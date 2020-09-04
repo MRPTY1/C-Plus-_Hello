@@ -32,11 +32,13 @@
     <Text Include="编译过程.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="arrchar.c" />
     <ClCompile Include="asm.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="constp.c" />
     <ClCompile Include="flc.c" />
+    <ClCompile Include="gets.c" />
     <ClCompile Include="hellow.c" />
     <ClCompile Include="str.c" />
     <ClCompile Include="str_puts.c" />
